@@ -277,7 +277,7 @@ button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
 [type="submit"]:not(:disabled) {
-  cursor: pointer;
+  cursor: url('ruta/a/tu/cursor.svg'), auto;
 }
 
 button::-moz-focus-inner,
@@ -354,7 +354,7 @@ output {
 
 summary {
   display: list-item;
-  cursor: pointer;
+  cursor: url('ruta/a/tu/cursor.svg'), auto;
 }
 
 template {
@@ -3749,7 +3749,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  cursor: pointer;
+  cursor: url('ruta/a/tu/cursor.svg'), auto;
   background-color: #dee2e6;
   border-color: transparent;
   border-radius: 1rem;
@@ -3780,7 +3780,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  cursor: pointer;
+  cursor: url('ruta/a/tu/cursor.svg'), auto;
   background-color: #dee2e6;
   border-color: transparent;
   border-radius: 1rem;
@@ -3813,7 +3813,7 @@ input[type="button"].btn-block {
   width: 100%;
   height: 0.5rem;
   color: transparent;
-  cursor: pointer;
+  cursor: url('ruta/a/tu/cursor.svg'), auto;
   background-color: transparent;
   border-color: transparent;
   border-width: 0.5rem;
@@ -6084,7 +6084,7 @@ a.close.disabled {
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
-  cursor: pointer;
+  cursor: url('ruta/a/tu/cursor.svg'), auto;
   background-color: #fff;
   background-clip: padding-box;
   border-top: 10px solid transparent;
@@ -9737,7 +9737,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .portfolio .portfolio-item {
-  cursor: pointer;
+  cursor: url('ruta/a/tu/cursor.svg'), auto;
   position: relative;
   display: block;
   max-width: 25rem;
