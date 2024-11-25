@@ -9,7 +9,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
  *************************/
 
 
- @media screen and (min-width:700px) {
+ @media screen and (min-width:200px) {
 	.schedule_3tracks {
 		display: grid;
 		grid-gap: 1em;
@@ -195,7 +195,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 	}
 }
 
- @media screen and (min-width:700px) {
+ @media screen and (min-width:200px) {
 	.schedule_2tracks {
 		display: grid;
 		grid-gap: 1em;
@@ -400,7 +400,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 			display: block;
 			padding: 10px 5px 5px;
 			position: sticky;
-			top: 10px; /* Matches height of top navigation TODO(tfoote) support wrapping etc*/
+			top: 0px; /* Matches height of top navigation TODO(tfoote) support wrapping etc*/
 			background-color: rgba(255, 189, 127, 0.9);
 			text-align: center;
 		}
@@ -433,7 +433,7 @@ body {
 }
 
 .session {
-	padding: .5em;
+	padding: 0;
 	border-radius: 2px;
 	font-size: 14px;
 	box-shadow:
