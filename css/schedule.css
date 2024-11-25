@@ -456,7 +456,7 @@ body {
 }
 
 .session-title {
-	margin: 0;
+	margin: 1em;
 	font-weight: bold;
 	font-size: 1.6em;
 	text-align: center;
