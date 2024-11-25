@@ -3960,6 +3960,7 @@ input[type="button"].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  white-space: nowrap;
 }
 
 .navbar > .container,
@@ -3986,10 +3987,11 @@ input[type="button"].btn-block {
 
 .navbar-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  flex-wrap: nowrap;
 }
 
 .navbar-nav .nav-link {
