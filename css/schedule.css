@@ -410,7 +410,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 /* Small-screen & fallback styles */
 .session {
 
-	margin-bottom:  1em;
+	margin-bottom:  0;
 }
 
 @supports( display:grid ) {
@@ -426,7 +426,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
  * Design-y stuff ot particularly important to the demo
  *************************/
 body {
-	padding: 10px;
+	padding: 0px;
 	max-width: 4500px;
 	margin: 0 auto;
 	line-height: 1.5;
@@ -476,7 +476,7 @@ body {
 .session-video {
 	float: right;
 	padding-right: 5%;
-	padding-right: 20%;
+	padding-right: 100%;
 	margin-bottom: 1rem;
 }
 
