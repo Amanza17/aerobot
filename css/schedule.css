@@ -364,7 +364,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 /* Small-screen & fallback styles */
 .session {
 
-	margin-bottom:  1em;
+	margin-bottom:  0;
 }
 
 @supports( display:grid ) {
@@ -385,6 +385,13 @@ body {
 	margin: 0 auto;
 	line-height: 1.5;
 }
+
+.schedule_3tracks, .schedule_2tracks {
+	display: grid;
+	grid-gap: 1em;
+	margin: 0 auto; /* Centra la cuadrícula dentro del contenedor */
+  }
+  
 
 .session {
 	padding: .5em;
