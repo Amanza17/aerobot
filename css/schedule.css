@@ -16,12 +16,6 @@ https://codepen.io/mrwweb/pen/rgPOOd
 		grid-template-rows:
 		[tracks] auto
 
-		[time-0800] auto
-		[time-0805] auto
-		[time-0810] auto
-		[time-0815] auto
-		[time-0820] auto
-		[time-0825] auto
 		[time-0830] auto
 		[time-0835] auto
 		[time-0840] auto
@@ -161,23 +155,6 @@ https://codepen.io/mrwweb/pen/rgPOOd
 		[time-1950] auto
 		[time-1955] auto
 		[time-2000] auto
-		[time-2005] auto
-		[time-2010] auto
-		[time-2015] auto
-		[time-2020] auto
-		[time-2025] auto
-		[time-2030] auto
-		[time-2035] auto
-		[time-2040] auto
-		[time-2045] auto
-		[time-2050] auto
-		[time-2055] auto
-		[time-2100] auto
-		[time-2105] auto
-		[time-2110] auto
-		[time-2115] auto
-		[time-2120] auto
-		[time-2125] auto
 
 		;
 			/* Note 1:
@@ -341,29 +318,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 		[time-1950] auto
 		[time-1955] auto
 		[time-2000] auto
-		[time-2005] auto
-		[time-2010] auto
-		[time-2015] auto
-		[time-2020] auto
-		[time-2025] auto
-		[time-2030] auto
-		[time-2035] auto
-		[time-2040] auto
-		[time-2045] auto
-		[time-2050] auto
-		[time-2055] auto
-		[time-2100] auto
-		[time-2105] auto
-		[time-2110] auto
-		[time-2115] auto
-		[time-2120] auto
-		[time-2125] auto
-		[time-2130] auto
-		[time-2135] auto
-		[time-2140] auto
-		[time-2145] auto
-		[time-2150] auto
-		[time-2155] auto
+
 		;
 	/* Note 1:
 			Use 24hr time for gridline names for simplicity
