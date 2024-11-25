@@ -334,6 +334,14 @@ https://codepen.io/mrwweb/pen/rgPOOd
 	}
 }
 
+.time-slot {
+    grid-column: times;
+    text-decoration: none;
+	margin: 0;
+	font-weight: bold;
+	font-size: .75em;
+}
+
 .track-slot {
 	display: none; /* hidden on small screens and browsers without grid support */
 	font-weight: bold;
@@ -356,7 +364,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 /* Small-screen & fallback styles */
 .session {
 
-	margin-bottom:  0;
+	margin-bottom:  1em;
 }
 
 @supports( display:grid ) {
@@ -379,11 +387,11 @@ body {
 }
 
 .schedule_3tracks, .schedule_2tracks {
-	display: grid;
-	grid-gap: 1em;
-	margin: 0 auto; /* Centra la cuadrícula dentro del contenedor */
-  }
-  
+  display: grid;
+  grid-gap: 1em;
+  margin: 0 auto; /* Centra la cuadrícula dentro del contenedor */
+}
+
 
 .session {
 	padding: .5em;
