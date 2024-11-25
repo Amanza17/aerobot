@@ -458,7 +458,8 @@ body {
 .session-title {
 	margin: 0;
 	font-weight: bold;
-	font-size: 1.4em;
+	font-size: 1.6em;
+	text-align: center;
 }
 
 .session-presenter {
