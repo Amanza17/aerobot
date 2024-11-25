@@ -414,7 +414,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 }
 
 @supports( display:grid ) {
-	@media screen and (min-width: 700px) {
+	@media screen and (min-width: 200px) {
 		.session {
 			margin: 0;
 		}
