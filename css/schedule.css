@@ -9,7 +9,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
  *************************/
 
 
- @media screen and (min-width:200px) {
+ @media screen and (min-width:700px) {
 	.schedule_3tracks {
 		display: grid;
 		grid-gap: 1em;
@@ -172,7 +172,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 	}
 }
 
- @media screen and (min-width:200px) {
+ @media screen and (min-width:700px) {
 	.schedule_2tracks {
 		display: grid;
 		grid-gap: 1em;
@@ -318,7 +318,6 @@ https://codepen.io/mrwweb/pen/rgPOOd
 		[time-1950] auto
 		[time-1955] auto
 		[time-2000] auto
-
 		;
 	/* Note 1:
 			Use 24hr time for gridline names for simplicity
@@ -350,12 +349,12 @@ https://codepen.io/mrwweb/pen/rgPOOd
 }
 
 @supports( display:grid ) {
-	@media screen and (min-width:200) {
+	@media screen and (min-width:700px) {
 		.track-slot {
 			display: block;
 			padding: 10px 5px 5px;
 			position: sticky;
-			top: 0px; /* Matches height of top navigation TODO(tfoote) support wrapping etc*/
+			top: 50px; /* Matches height of top navigation TODO(tfoote) support wrapping etc*/
 			background-color: rgba(255, 189, 127, 0.9);
 			text-align: center;
 		}
@@ -365,11 +364,11 @@ https://codepen.io/mrwweb/pen/rgPOOd
 /* Small-screen & fallback styles */
 .session {
 
-	margin-bottom:  0;
+	margin-bottom:  1em;
 }
 
 @supports( display:grid ) {
-	@media screen and (min-width: 200px) {
+	@media screen and (min-width: 700px) {
 		.session {
 			margin: 0;
 		}
@@ -381,14 +380,14 @@ https://codepen.io/mrwweb/pen/rgPOOd
  * Design-y stuff ot particularly important to the demo
  *************************/
 body {
-	padding: 0px;
+	padding: 50px;
 	max-width: 4500px;
 	margin: 0 auto;
 	line-height: 1.5;
 }
 
 .session {
-	padding: 0;
+	padding: .5em;
 	border-radius: 2px;
 	font-size: 14px;
 	box-shadow:
@@ -411,7 +410,7 @@ body {
 }
 
 .session-title {
-	margin: 1em;
+	margin: 1r;
 	font-weight: bold;
 	font-size: 1.6em;
 	text-align: center;
@@ -431,7 +430,7 @@ body {
 .session-video {
 	float: right;
 	padding-right: 5%;
-	padding-right: 100%;
+	padding-right: 20%;
 	margin-bottom: 1rem;
 }
 
@@ -557,5 +556,5 @@ details[open] summary {
 /* } */
 
 hr {
-	margin: 10px 0;
+	margin: 40px 0;
 }
