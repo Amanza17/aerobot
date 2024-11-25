@@ -9751,16 +9751,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.portfolio {
-  margin-bottom: -30px;
-}
 
 .portfolio .portfolio-item {
   cursor: url('img/cohete.png'), auto;
   position: relative;
   display: block;
   max-width: 25rem;
-  margin-bottom: 30px;
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -9798,7 +9794,6 @@ a.text-dark:hover, a.text-dark:focus {
   position: absolute;
   z-index: 1;
   right: 1.5rem;
-  top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
   color: #4080CC;
