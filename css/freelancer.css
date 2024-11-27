@@ -9550,7 +9550,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .page-section .page-section-heading {
@@ -9665,7 +9665,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 #mainNav .navbar-toggler {
   font-size: 80%;
-  padding: 0.8rem;
+  padding: 0.2rem;
 }
 
 @media (min-width: 992px) {
