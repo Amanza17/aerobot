@@ -6205,6 +6205,26 @@ a.close.disabled {
   background-color: #4080CC !important;
 }
 
+.bg-charlas {
+  background-color: #5A95D7 !important;
+}
+
+.bg-registro {
+  background-color: #8DBFEB !important;
+}
+
+.bg-llegar {
+  background-color: #A6D4F4 !important;
+}
+
+.bg-live {
+  background-color: #73AAE1 !important;
+}
+
+.bg-comité {
+  background-color: #A1B3C9 !important;
+}
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
