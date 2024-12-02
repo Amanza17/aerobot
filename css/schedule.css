@@ -333,7 +333,6 @@ https://codepen.io/mrwweb/pen/rgPOOd
 	}
 }
 
-
 .time-slot {
     grid-column: times;
     text-decoration: none;
@@ -362,21 +361,11 @@ https://codepen.io/mrwweb/pen/rgPOOd
 }
 
 
-@media screen and (max-width: 699px) {
-	.schedule_3tracks, .schedule_2tracks {
-			grid-template-columns: 1fr; /* Ajusta las columnas a una sola columna en pantallas pequeñas */
-			grid-gap: 1em;
-	}
-}
-
-
-
 /* Small-screen & fallback styles */
 .session {
-	margin-bottom: 1em;
-	display: block; /* Asegúrate de que los elementos .session se muestren como bloques */
-}
 
+	margin-bottom:  1em;
+}
 
 @supports( display:grid ) {
 	@media screen and (min-width: 700px) {
@@ -390,15 +379,12 @@ https://codepen.io/mrwweb/pen/rgPOOd
  * VISUAL STYLES
  * Design-y stuff ot particularly important to the demo
  *************************/
- body {
+body {
 	padding: 50px;
-	max-width: 100%;
+	max-width: 4500px;
 	margin: 0 auto;
 	line-height: 1.5;
 }
-
-
-
 
 .schedule_3tracks, .schedule_2tracks {
   display: grid;
