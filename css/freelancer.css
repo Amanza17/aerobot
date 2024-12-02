@@ -2919,17 +2919,6 @@ input[type="button"].btn-block {
   right: 0;
   left: auto;
 }
-@media (max-width: 600px) {
-  .schedule {
-      display: block;
-      width: 100%;
-  }
-  .activity {
-      display: block;
-      margin-bottom: 10px;
-  }
-}
-
 
 @media (min-width: 576px) {
   .dropdown-menu-sm-left {

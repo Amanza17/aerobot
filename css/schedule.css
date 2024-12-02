@@ -164,10 +164,10 @@ https://codepen.io/mrwweb/pen/rgPOOd
 			*/
 
 		grid-template-columns:
+			[times] 4em
 			[track-1-start] 1fr
 			[track-1-end track-2-start] 1fr
-			[track-2-end track-3-start] 1fr
-			[track-3-end];
+			[track-2-end];
 	}
 }
 
