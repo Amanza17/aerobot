@@ -90,6 +90,20 @@ p {
   margin-bottom: 1rem;
 }
 
+.png-program {
+  display: flex;
+  justify-content: center; /* Centra el `div` horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente dentro del `div`, si es necesario */
+  margin: 0 auto; /* Centra el `div` dentro del contenedor padre */
+  text-align: center; /* Asegura que el contenido dentro del `div` esté centrado */
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; /* Asegura que la imagen se ajuste correctamente al tamaño del `div` */
+}
+
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
