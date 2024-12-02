@@ -47,6 +47,20 @@
   box-sizing: border-box;
 }
 
+.png-program {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  margin: 0 auto; /* Centra el contenedor dentro del padre */
+}
+
+@media screen and (max-width: 699px) {
+  .png-program embed {
+      width: 100%; /* Ajusta el ancho al 100% del contenedor en dispositivos móviles */
+      height: auto; /* Ajusta la altura automáticamente */
+  }
+}
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
