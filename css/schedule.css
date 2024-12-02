@@ -164,14 +164,14 @@ https://codepen.io/mrwweb/pen/rgPOOd
 			*/
 
 		grid-template-columns:
-			[times] 4em
 			[track-1-start] 1fr
 			[track-1-end track-2-start] 1fr
-			[track-2-end];
+			[track-2-end track-3-start] 1fr
+			[track-3-end];
 	}
 }
 
- @media screen and (min-width:100px) {
+ @media screen and (min-width:700px) {
 	.schedule_2tracks {
 		display: grid;
 		grid-gap: 1em;
@@ -367,7 +367,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 }
 
 @supports( display:grid ) {
-	@media screen and (min-width: 100px) {
+	@media screen and (min-width: 700px) {
 		.session {
 			margin: 0;
 		}
