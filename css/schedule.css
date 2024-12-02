@@ -171,7 +171,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 	}
 }
 
- @media screen and (min-width:700px) {
+ @media screen and (min-width:100px) {
 	.schedule_2tracks {
 		display: grid;
 		grid-gap: 1em;
@@ -367,7 +367,7 @@ https://codepen.io/mrwweb/pen/rgPOOd
 }
 
 @supports( display:grid ) {
-	@media screen and (min-width: 700px) {
+	@media screen and (min-width: 100px) {
 		.session {
 			margin: 0;
 		}
